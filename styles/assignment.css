@@ -7,9 +7,6 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: white;
-    background-image: url("file:///C:/Users/LT/Desktop/project/assignment-2/assets/bg.png");
-    background-position: center;
-    background-repeat: repeat;
 
 }
 
@@ -130,8 +127,11 @@ header {
     display: flex;
     gap: 30px;
     justify-content: center;
-    
-}
+    background-image: url("/assets/bg.png");
+    background-position: center;
+    background-repeat: repeat;
+
+} 
 
 .banner-card {
     width: 315px;
@@ -423,12 +423,25 @@ header {
         gap: 0px;
         text-align: center;
     }
+    .banner-text{
+        margin-left: -40px;
+    }
+    .hero-kids-picture{
+        margin-left: -40px;
+    }
+    .header-text{
+        font-size: 2rem;
+        margin-left: -50px;
+    }
 
     .card-section {
         display: flex;
         flex-direction: column;
         margin-left: 120px;
         margin-bottom: -70px;
+    }
+    .banner-card {
+        margin-left: -15px;
     }
 
     .prev-btn, .next-btn {
@@ -449,14 +462,15 @@ header {
 
 
     .right-side-top-cart {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .right-side-bottom-cart {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .big-cart {
+        display: none;
         width: 420px;
         height: 350px;
         margin-top: 8px;
@@ -493,6 +507,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 500px;
+    margin-top: -430px;
 }
 
 .footer-left-side {
@@ -720,6 +735,7 @@ header {
     }
 
     .left-side-cart {
+        
         margin-left: -45px;
     }
 
@@ -738,6 +754,7 @@ header {
 
 
     .big-cart {
+        display: none;
         width: 270px;
     }
 
