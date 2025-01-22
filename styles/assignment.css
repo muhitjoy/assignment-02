@@ -427,17 +427,17 @@ header {
         margin-left: -40px;
     }
     .hero-kids-picture{
-        margin-left: -40px;
+        margin-left: -60px;
     }
     .header-text{
         font-size: 2rem;
-        margin-left: -50px;
+        margin-left: -60px;
     }
 
     .card-section {
         display: flex;
         flex-direction: column;
-        margin-left: 120px;
+        margin-left: 110px;
         margin-bottom: -70px;
     }
     .banner-card {
@@ -457,7 +457,7 @@ header {
         display: grid;
         grid-template-columns: 3fr;
         justify-items: center;
-        margin-left: 50px;
+        margin-left: 60px;
     }
 
 
