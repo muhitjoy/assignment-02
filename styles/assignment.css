@@ -428,6 +428,7 @@ header {
     }
     .hero-kids-picture{
         margin-left: -60px;
+        width: auto;
     }
     .header-text{
         font-size: 2rem;
@@ -437,11 +438,12 @@ header {
     .card-section {
         display: flex;
         flex-direction: column;
-        margin-left: 110px;
+        margin-left:auto;
         margin-bottom: -70px;
+        width: auto;
     }
     .banner-card {
-        margin-left: -15px;
+        margin-left: auto;
     }
 
     .prev-btn, .next-btn {
@@ -549,7 +551,7 @@ header {
     }
 
     .card-section {
-        margin-left: 90px;
+        margin-left: auto;
 
     }
 
@@ -623,27 +625,44 @@ header {
         height: auto;
     }
 
+    .header-text{
+        width: auto;
+    }
+
+
     .banner-card {
         width: 270px;
-        margin-left: 0px;
+        margin-left: 55px;
+        
     }
 
     .left-side-cart {
         display: none;
-        margin-left: -20px;
+        margin-left: -40px;
+        width: auto;
     }
 
     .right-side-top-cart {
-        margin-left: -30px;
+        margin-left: -50px;
+        width: auto;
     }
 
     .right-side-bottom-cart {
-        margin-left: -30px;
+        margin-left: -50px;
+        width: auto;
+    }
+
+    .icon-bar{
+        margin-right: 70px;
     }
 
 
     .big-cart {
         width: 350px;
+    }
+
+    .view-all-btn{
+        margin-left: 115px;
     }
 
 
@@ -652,13 +671,21 @@ header {
    
     }
 
+    .logo-div{
+        margin-right:120px;
+    }
+
+    .footer{
+        width: auto;
+    }
+
 } 
 
 
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
 
     body {
         background-image: url("file:///C:/Users/LT/Desktop/project/assignment-2/assets/bg.png");
@@ -667,13 +694,20 @@ header {
     }
 
     .kids-profile-pic {
-        width: 360px;
+        max-width: 350px;
         height: auto;
+        width: auto;
+        margin-left:5px;
+    
+    }
+
+    .card-section{
+        margin-left: 10px;
     }
 
     .banner-card {
         width: 270px;
-        margin-left: -20px;
+        margin-left: 40px;
     }
 
     .left-side-cart {
@@ -689,11 +723,13 @@ header {
     }
 
     .right-side-top-cart {
-        margin-left: -40px;
+        margin-left: -50px;
+        width: auto;
     }
 
     .right-side-bottom-cart {
-        margin-left: -40px;
+        margin-left: -50px;
+        width: auto;
     }
 
 
@@ -716,7 +752,7 @@ header {
 } 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 378px) {
     body {
         background-image: url("file:///C:/Users/LT/Desktop/project/assignment-2/assets/bg.png");
         background-repeat: repeat;
@@ -725,13 +761,24 @@ header {
 
 
     .kids-profile-pic {
-        width: 290px;
+        max-width: 357px;
+        margin-left:60px ;
         height: auto;
+        width: auto;
+        
+    }
+
+    .header-text{
+        margin-left: 7px;
     }
 
     .banner-card {
         width: 250px;
-        margin-left: -55px;
+        margin-left: 50px;
+    }
+
+    .banner-text{
+        margin-left: 8px;
     }
 
     .left-side-cart {
@@ -745,17 +792,25 @@ header {
     }
 
     .right-side-top-cart {
-        margin-left: -58px;
+        margin-left: -13px;
+        max-width: 500px;
+        width: auto;
     }
 
     .right-side-bottom-cart {
-        margin-left: -58px;
+        margin-left: -13px;
+        max-width: 500px;
+        width: auto;
     }
 
 
     .big-cart {
         display: none;
         width: 270px;
+    }
+
+    .logo{
+        margin-left: 8px;
     }
 
 
@@ -778,10 +833,14 @@ header {
     }
 
     .footer {
-        margin-top: -900px;
+        margin-top: -490px;
         width: 100%;
         height: 570px;
 
+    }
+
+    .icon-bar{
+        margin-left: 150px;
     }
 
 } 
@@ -790,21 +849,37 @@ header {
 
 
 
-@media screen and (max-width: 290px) {
+@media screen and (max-width: 363px) {
     body {
         background-image: url("file:///C:/Users/LT/Desktop/project/assignment-2/assets/bg.png");
         background-repeat: repeat;
         background-position: right;
     }
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .icon-bar{
+        margin-left: 90px;
+    }
+
+    .header-text{
+        font-size: 1.7rem;
+        margin-right: 10px;
+        width: auto;
+    }
     
     .kids-profile-pic {
-        width: 250px;
+        max-width: 300px;
         height: auto;
+        width: auto;
     }
 
     .banner-card {
-        width: 250px;
-        margin-left: -65px;
+        max-width: 250px;
+        margin-left: 40px;
+        width: auto;
     }
 
     .left-side-cart {
@@ -817,11 +892,13 @@ header {
     }
 
     .right-side-top-cart {
-        margin-left: -58px;
+        margin-left: -18px;
+        width: 500px;
     }
 
     .right-side-bottom-cart {
-        margin-left: -58px;
+        margin-left: -18px;
+        width: 500px;
     }
 
 
